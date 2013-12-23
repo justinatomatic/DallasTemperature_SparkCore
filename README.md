@@ -8,10 +8,10 @@ Put DallasTemperature.h, OneWire.h in the inc directroy under core-firmware
 Put DallasTemperature.cpp, OneWire.cpp and example application application.cpp in the scr directory under core-firmware
 
 add 
-
+```
 >CPPSRC += $(TARGET_SRC_PATH)/DallasTemperature.cpp
 >CPPSRC += $(TARGET_SRC_PATH)/OneWire.cpp
-
+```
 to your build.mk file the scr directory under core-firmware
 
 make and enjoy.
