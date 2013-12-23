@@ -26,5 +26,5 @@ http://www.pjrc.com/teensy/td_libs_OneWire.html
 SparkCore Verison of OneWire Libary 
 
 I've taken the code that Spark Forum user tidwelltimj posted 
-split it back into separte code and header files and put back in the 
+split it back into separate code and header files and put back in the 
 credits and comments and got it compiling on the command line within SparkCore core-firmware
