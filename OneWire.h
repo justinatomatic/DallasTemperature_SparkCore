@@ -3,14 +3,6 @@
 
 #include <inttypes.h>
 
-#ifdef __AVR__
-    #if ARDUINO >= 100
-    #include "Arduino.h"       // for delayMicroseconds, digitalPinToBitMask, etc
-    #else
-    #include "WProgram.h"      // for delayMicroseconds
-    #include "pins_arduino.h"  // for digitalPinToBitMask, etc
-    #endif
-#endif
 
 #ifdef STM32F10X_MD
    #include "spark_wiring.h"
